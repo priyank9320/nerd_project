@@ -41,6 +41,7 @@ Now, by default the SpaCy model 'en_core_web_lg' can recognize the following ent
 18. CARDINALS: Numerals that do not fall under another category 
 
 
+
 What entities we want to recognize:
 1. Company names (use ORG)
 2. Company addresses (not present)
