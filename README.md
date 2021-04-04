@@ -57,3 +57,11 @@ Additional training is possible in SpaCy for the NER model.
 Need annotated data for this task now.
 
 Prodigy (https://prodi.gy/) seems to be a fast way to create the annotated data.
+
+Also, the Entity linker feature in spacy requires a annotation tool, and Prodigy works quite godd with  spacy, youtube tutorials from the creators of prodigy are available for this task.
+
+BUT Prodigy is a paid solution. 
+
+Trying other solutions now.
+
+Google Cloud Platform (GCP) provides NLP API which has entity recognition feature and it also performs the disambiguation for some entities and provides a Wikipedia link (Wikification): Refer gcp_ner.ipynb for the code
