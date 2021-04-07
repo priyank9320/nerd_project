@@ -2,6 +2,10 @@
 Named entity recognition and disambiguation project
 (latest code: nerd_full_model.ipynb)
 
+I used this readme file to maintain my findings as I went about the task of Entity Linking:
+
+
+
 Tha main task this project deals with is Entity Linking ( which has several names such as Named Entity Linking (NEL), Named Entity Disambiguation (NED), Named Entity Normalisation (NEN), Named Entity Recognition and Disambiguation (NERD) ) (https://en.wikipedia.org/wiki/Entity_linking).
 
 One way of performing Entity Linking is dividing it into 2 steps:
