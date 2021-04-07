@@ -60,8 +60,36 @@ Prodigy (https://prodi.gy/) seems to be a fast way to create the annotated data.
 
 Also, the Entity linker feature in spacy requires a annotation tool, and Prodigy works quite godd with  spacy, youtube tutorials from the creators of prodigy are available for this task.
 
-BUT Prodigy is a paid solution. 
+BUT Prodigy is a paid solution. Other solutions for annotation are available but it increases the complexity as less re-useable code is available.
 
 Trying other solutions now.
 
 Google Cloud Platform (GCP) provides NLP API which has entity recognition feature and it also performs the disambiguation for some entities and provides a Wikipedia link (Wikification): Refer gcp_ner.ipynb for the code
+
+BUT the default entities that are being identified dont cover some of the entities we want to extract like serial numbmers, and the "product" entity identified from documents works a bit different. For example, sentence containing "plastic bottle" will identify "bottle" as the "product" but we want the entire phrase "plastc bottle" to be categorised as "product". 
+
+So this can be achieved by training our own entity extraction using GCP AutoML API
+
+Now going through the tutorials/dcoumentations I found that, GCP AutoML API for entity extraction requires a jsonl file (jsonl format has each line as an individual json object/document). Either you provide the annotated document in jsonl or you provide un-annotated text in jsonl format and do the annotation in the console.
+
+I will be creating un-annotated jsonl document and creating the annotation in the console.
+
+Preparing the jsonl document: refer ner_data.jsonl
+
+According to the documentation available for this API at https://cloud.google.com/natural-language/automl/docs/prepare:
+" 
+You supply between 50 and 100,000 documents to use for training your custom model. You use between one and 100 unique labels to annotate the entities you want the model to learn to extract. Each annotation is a span of text and an associated label. Label names can be between 2 and 30 characters, and can be used to annotate between one and 10 words. We recommend using each label at least 200 times in your training data set.
+"
+Finidng data and annotating it manually takes time, so I am going to try to get the data annotated for only 20 examples for each label.
+
+Actually, wihtout providing atleast 50 examples for each label we cannot train the NER in AutoML.
+
+After the training of AutoML API, I ran it in the console and it was able to provide quite good generalisation. But the training took around 3 hours. Good thing is google sends email when the training is done. This can surely be used for Entity Recognition purpose.
+
+
+
+
+
+Trying SpaCy and Entity Recognition and Entity Linker:
+AutoML is good hassel free solution for entity recognition as you dont have to deploy it, but I also finally understood how to perfrom the complete task (NER+NED) using just SpaCy. And using SpaCy for both the components actually provided easy integration. 
+Please refer to the jupyter notebook nerd_full_model.ipynb for detailed explanation of each step and some example code showing how the model can be built for all the labels mentioned in the requirements document.
