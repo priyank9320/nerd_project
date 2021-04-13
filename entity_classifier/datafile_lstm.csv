@@ -1,0 +1,503 @@
+text,category
+trash bags,physical_good
+box cutter,physical_good
+first aid kit,physical_good
+batteries,physical_good
+light bulbs,physical_good
+hardwood table,physical_good
+plastic bottle,physical_good
+pliers,physical_good
+modem,physical_good
+router,physical_good
+smart thermostat,physical_good
+ethernet cables,physical_good
+amazon echo,physical_good
+silverware,physical_good
+flatware sets,physical_good
+steak knives,physical_good
+silverware organizer,physical_good
+dishware,physical_good
+plates,physical_good
+bowls,physical_good
+serving platters,physical_good
+glasses,physical_good
+coffee mugs,physical_good
+wine glasses,physical_good
+utensils,physical_good
+tongs,physical_good
+spatulas,physical_good
+ladles,physical_good
+skimmer,physical_good
+whisks,physical_good
+utensil holder,physical_good
+knives,physical_good
+cutting board,physical_good
+pots,physical_good
+pans,physical_good
+baking sheets,physical_good
+tupperware,physical_good
+bottle opener,physical_good
+corkscrew,physical_good
+measuring cups,physical_good
+spoons,physical_good
+toaster oven,physical_good
+microwave,physical_good
+coffee maker,physical_good
+coffee grinder,physical_good
+kettle,physical_good
+blender,physical_good
+colander,physical_good
+salad spinner,physical_good
+trash can,physical_good
+step stool,physical_good
+magnetic hooks,physical_good
+sponges,physical_good
+dish soap,physical_good
+drying rack,physical_good
+dish towels,physical_good
+napkins,physical_good
+paper towels,physical_good
+aluminum foil,physical_good
+wax paper,physical_good
+plastic wrap,physical_good
+parchment paper,physical_good
+plastic bags,physical_good
+ice cube trays,physical_good
+can opener,physical_good
+oven mits,physical_good
+cooling mat,physical_good
+kitchen rug,physical_good
+standing mat,physical_good
+television,physical_good
+sound bar,physical_good
+couch,physical_good
+coffee table,physical_good
+coasters,physical_good
+arm chair,physical_good
+stools,physical_good
+rocking chair,physical_good
+side table,physical_good
+bookshelf,physical_good
+throw pillows,physical_good
+throw blanket,physical_good
+area rug,physical_good
+pillows,physical_good
+mattress,physical_good
+lamp,physical_good
+night stand,physical_good
+mirror,physical_good
+dresser,physical_good
+laundry hamper,physical_good
+alarm clock,physical_good
+shoe rack,physical_good
+hangers,physical_good
+storage bins,physical_good
+toilet paper,physical_good
+bath mats,physical_good
+tissues,physical_good
+towels,physical_good
+ironing board,physical_good
+broom,physical_good
+hammer,physical_good
+amcor plc,company_name
+anglo american plc,company_name
+antofagasta plc,company_name
+aon plc,company_name
+ashtead group,company_name
+asos plc,company_name
+associated british foods plc,company_name
+astrazeneca plc,company_name
+aviva plc,company_name
+"avon products, inc.",company_name
+babcock international group plc,company_name
+bae systems plc,company_name
+balfour beatty plc,company_name
+barclays plc,company_name
+barratt developments plc,company_name
+bellway plc,company_name
+berkeley group holdings,company_name
+bhp group plc,company_name
+bp plc,company_name
+british american tobacco,company_name
+vector ai ltd,company_name
+burberry group plc,company_name
+capita plc,company_name
+carnival plc,company_name
+centrica plc,company_name
+cineworld group,company_name
+compass group plc,company_name
+computacenter plc,company_name
+dart group plc,company_name
+diageo plc,company_name
+direct line insurance group plc,company_name
+dixons carphone plc,company_name
+drax group plc,company_name
+marks and spencers ltd,company_name
+nvidia ireland,company_name
+m&s limited,company_name
+firstgroup plc,company_name
+frasers group plc,company_name
+g4s plc,company_name
+glaxosmithkline plc,company_name
+hays plc,company_name
+hsbc holdings plc,company_name
+imperial brands,company_name
+inchcape plc,company_name
+intercontinental hotels group plc,company_name
+international consolidated airlines group sa,company_name
+interserve plc,company_name
+intertek group plc,company_name
+investec plc,company_name
+itv plc,company_name
+j sainsbury plc,company_name
+jd sports fashion,company_name
+john wood group plc,company_name
+johnson matthey limited,company_name
+just group limited,company_name
+kier group limited,company_name
+kingfisher limited,company_name
+legal & general group limited,company_name
+lloyds banking group plc,company_name
+lookers limited,company_name
+marks & spencer group limited,company_name
+melrose industries plc,company_name
+mondi plc,company_name
+morgan sindall group plc,company_name
+national grid ltd,company_name
+next ltd,company_name
+pearson ltd,company_name
+pendragon co.,company_name
+persimmon co.,company_name
+petrofac ltd.,company_name
+prudential plc,company_name
+reckitt benckiser group plc,company_name
+relx co.,company_name
+rio tinto plc,company_name
+rolls-royce holdings plc,company_name
+royal bank of scotland group plc,company_name
+royal mail plc,company_name
+rpc group ltd.,company_name
+rsa insurance group plc,company_name
+schroders corporation,company_name
+serco group plc,company_name
+sig plc,company_name
+smith & nephew plc,company_name
+sse plc,company_name
+ssp group plc,company_name
+standard chartered plc,company_name
+subsea 7 sa,company_name
+tate & lyle limited,company_name
+taylor wimpey plc,company_name
+tesco plc,company_name
+the go-ahead group plc,company_name
+thomas cook group plc,company_name
+ti fluid systems plc,company_name
+travis perkins plc,company_name
+unilever plc,company_name
+vertu motors plc,company_name
+virgin money uk plc,company_name
+vivo energy plc,company_name
+wm morrison supermarkets plc,company_name
+wpp plc,company_name
+"paris, france",location
+"new york, usa",location
+"rome, italy",location
+"london, uk",location
+"tokyo, japan",location
+"lisbon, portugal",location
+"barcelona, spain",location
+"honolulu, hawaii",location
+"istanbul, turkey",location
+"bangkok, thailand",location
+"agra, india",location
+"cairo, egypt",location
+"helsinki, finland",location
+"ubud, bali, indonesia",location
+"berlin, germany",location
+"shanghai, china",location
+"las vegas, usa",location
+"jerusalem, israel",location
+"venice, italy",location
+"cape town, south africa",location
+"rio de janeiro, brazil",location
+"singapore, singapore",location
+"toronto, canada",location
+"seoul, south korea",location
+"casablanca, morocco",location
+"mosco, russia",location
+"sydney, australia",location
+"lima, peru",location
+"beijing, china",location
+"buenos aires, argentina",location
+"edinburgh, scotland",location
+los angeles,location
+"copenhagen, denmark",location
+"osaka, japan",location
+"auckland, new zealand",location
+"mumbai, india",location
+"dubai, united arab emirates",location
+"munich, germany",location
+"hong kong, china",location
+"qatar, state of qatar",location
+"seattle, usa",location
+"oslo, norway",location
+"bath, uk",location
+"athens, greece",location
+"vienna, austria",location
+"madrid, spain",location
+"dublin, republic of ireland",location
+"florence, italy",location
+"bruges, belgium",location
+"krakow, poland",location
+"amsterdam, holland",location
+"stockholm, sweden",location
+"ljubljana, slovenia",location
+"hanoi, vietnam",location
+"wellington, new zealand",location
+"nice, france",location
+"vancouver, canada",location
+"kiev, ukraine",location
+"hallstatt, austria",location
+"havana, cuba",location
+mexico city,location
+"beirut, lebanon",location
+"salzburg, austria",location
+"sao paolo, brazil",location
+"prague, czech republic",location
+"kyoto, japan",location
+"marrakech, morocco",location
+"st petersburg, russia",location
+"san francisco, usa",location
+"oxford, uk",location
+"melbourne, australia",location
+"kingston, jamaica",location
+"amman, jordan",location
+"lagos, nigeria",location
+"new orleans, usa",location
+"san jose, costa rica",location
+"tallinn, estonia",location
+suva fiji,location
+"jarkarta, indonesia",location
+"new delhi, india",location
+"adelaide, australia",location
+"tripoli, libya",location
+"male, maldives",location
+"luxembourg, luxembourg",location
+"kuala lumpur, malaysia",location
+"glasgow, scotland",location
+"valletta, malta",location
+"kathmandu, nepal",location
+"brussels, belgium",location
+"panama city, panama",location
+"bucharest, romania",location
+"cardiff, wales",location
+"manila, philippines",location
+"castries, saint lucia",location
+"apia, samoa",location
+"bern, switzerland",location
+"taipei, taiwan",location
+"hobart, australia",location
+"budapest, hungary",location
+"reykjavik, iceland",location
+slough se12 2xy,company_address
+"33 timber yard, london, l1 8xy",company_address
+"44 china road, kowloon, hong kong",company_address
+"20 carlton house terrace, st. james's, london sw1y 5an",company_address
+antofagasta plc. cleveland house 33 king street london sw1y 6rj united kingdom,company_address
+"122 leadenhall street, london, ec3v",company_address
+"100 cheapside, london ec2v 6dt",company_address
+"hercules way, leavesden, watford, hertfordshire, wd25 7gr",company_address
+"10 avery row, grosvenor st, mayfair, london w1k 4qy",company_address
+"1 francis crick avenue, cambridge biomedical campus, cambridge cb2 0aa, uk",company_address
+"st helen's 1, undershaft, london ec3p 3dq",company_address
+"avon cosmetics limited, nunn mills road, northampton, nn1 5pa",company_address
+"babcock international, emergency services training centre beckton, unit 24, gemini business park, hornet way, london, e6 7ff",company_address
+"6 carlton gardens, st. james's, london sw1y 5ad",company_address
+"5 churchill place, canary wharf, london e14 5hu",company_address
+"1 churchill place, london e14 5hp",company_address
+"kent house, 1st floor, 14-17 market place, london, w1w 8aj",company_address
+"bellway p.l.c., woolsington house, woolsington, newcastle upon tyne, ne13 8bf",company_address
+"berkeley house, 19 portsmouth road, cobham, surrey, kt11 1jg",company_address
+"160 victoria st, westminster, london sw1e 5lb",company_address
+"bp p.l.c., 1 st james's square, london, sw1y 4pd",company_address
+"globe house, 4 temple pl, temple, london wc2r 2pg",company_address
+"scott house suite 1, the concourse, waterloo station, london, england, se1 7ly",company_address
+"burberry hq, horseferry house, horseferry road, westminster, london, sw1p 2aw, united kingdom",company_address
+"65 gresham street, london, ec2v",company_address
+"3655 nw 87th avenue. miami, fl. 33178 u.s.a.",company_address
+"centrica plc., millstream, maidenhead road, windsor, berkshire, sl4 5gd",company_address
+"great w rd, brentford tw8 9ag",company_address
+"compass house, guildford street, chertsey, surrey, kt16 9bq, uk",company_address
+"hatfield avenue, hatfield, hertfordshire, al10 9tw",company_address
+"low fare finder house, leeds bradford airport, yeadon, leeds, west yorkshire, ls19 7tu",company_address
+"lakeside dr, park royal, london nw10 7hq",company_address
+"churchill court, westmoreland road, bromley, kent, br1 1dp",company_address
+"1 portal way, london, w3 6rs",company_address
+"drax power station, selby, north yorkshire, yo8 8ph",company_address
+"2-28 st nicholas street, aberdeen, ab10 1bu",company_address
+"8th floor 20 farringdon street, london, united kingdom, ec4a 4ab",company_address
+"2-28 st nicholas street, aberdeen, ab10 1bu",company_address
+"395 king street, aberdeen, ab24 5rp",company_address
+"unit a, brook park east, shirebrook, ng20 8ry",company_address
+"5th floor, southside, 105 victoria street, london, united kingdom, sw1e 6qt",company_address
+"980 great west road, brentford, middlesex, tw8 9gs",company_address
+"4th floor 20 triton street, london, united kingdom, nw1 3bf",company_address
+"8 canada square, london, e14 5hq",company_address
+"121 winterstoke road, bristol, england, bs3 2ll",company_address
+"22a st james's square, london, sw1y 5lp",company_address
+"broadwater park, denham, buckinghamshire, ub9 5hr",company_address
+"waterside (haa2) p o box 365, harmondsworth, speedbird way, ub7 0gb",company_address
+"ernst & young llp 1, more london place, london, se1 2af",company_address
+"33 cavendish square, london, united kingdom, w1g 0ps",company_address
+"30 gresham street, london, england, ec2v 7qp",company_address
+"2 waterhouse square, 140 holborn, london, united kingdom, ec1n 2ae",company_address
+"33 holborn, london, ec1n 2ht",company_address
+"hollinsbrook way, pilsworth, bury, lancashire, bl9 8rr",company_address
+"15 justice mill lane, aberdeen, scotland, ab11 6eq",company_address
+"5th floor 25 farringdon street, london, ec4a 4ab",company_address
+"enterprise house, bancroft road, reigate, surrey, england, rh2 7rp",company_address
+"81 fountain street, manchester, england, m2 2ee",company_address
+"3 sheldon square, paddington, london, w2 6px",company_address
+"one coleman street, london, ec2r 5aa",company_address
+"the mound, edinburgh, eh1 1yz",company_address
+"lookers house 3 etchells road, west timperley, altrincham, united kingdom, wa14 5xs",company_address
+"waterside house, 35 north wharf road, london, w2 1nw",company_address
+"11th floor the colmore building, colmore circus queensway, birmingham, b4 6at",company_address
+"building 1 1st floor, aviator park station road, addlestone, surrey, kt15 2pg",company_address
+"kent house, 14 - 17 market place, london, w1w 8aj",company_address
+"1-3 strand, london, wc2n 5eh",company_address
+"desford road, enderby, leicester, le19 4at",company_address
+"80 strand, london, wc2r 0rl",company_address
+"loxley house 2 oakwood court, little oak drive, annesley nottingham, nottinghamshire, ng15 0dr",company_address
+"persimmon house, fulford, york, yo19 4fe",company_address
+"117 jermyn street, london, england and wales, united kingdom, sw1y 6hh",company_address
+"1 angel court, london, england, ec2r 7ag",company_address
+"103-105 bath road, slough, berkshire, sl1 3uh",company_address
+"1-3 strand, london, wc2n 5jr",company_address
+"6 st james's square, london, united kingdom, sw1y 4ad",company_address
+"kings place, 90 york way, london, united kingdom, n1 9fx",company_address
+"24-25 st andrew square, edinburgh, midlothian, eh2 1af",company_address
+"185 farringdon road, london, united kingdom, ec1a 1aa",company_address
+"sapphire house, crown way, rushden, northamptonshire, nn10 6fb",company_address
+"20 fenchurch street, london, ec3m 3au",company_address
+"1 london wall place, london, england, ec2y 5au",company_address
+"serco house, 16 bartley wood business park, bartley way hook, hampshire, rg27 9uy",company_address
+"10 eastbourne terrace, london, united kingdom, w2 6lg",company_address
+"building 5, croxley park, hatters lane, watford, hertfordshire, england, wd18 8ye",company_address
+"inveralmond house, 200 dunkeld road, perth, perthshire, ph1 3aq",company_address
+"jamestown wharf, 32 jamestown road, london, united kingdom, nw1 7hw",company_address
+"1 basinghall avenue, london, united kingdom, ec2v 5dd",company_address
+"40 brighton road, sutton, surrey, england, sm2 5bn",company_address
+"1 kingsway, london, united kingdom, wc2b 6at",company_address
+"gate house, turnpike road, high wycombe, buckinghamshire, united kingdom, hp12 3nr",company_address
+"tesco house, shire park, kestrel way, welwyn garden city, united kingdom, al7 1ga",company_address
+"3rd floor 41-51 grey street, newcastle upon tyne, ne1 6ee",company_address
+"ship canal house 8th floor, 98 king street, manchester, m2 4wu",company_address
+"4650 kingsgate cascade way, oxford business park south, oxford, oxfordshire, england, ox4 2su",company_address
+"lodge way house, lodge way, harleston road, northampton, nn5 7ug",company_address
+"port sunlight, wirral, merseyside, ch62 4zd",company_address
+"vertu house, fifth avenue business park, team valley, gateshead, tyne & wear, united kingdom, ne11 0xa",company_address
+"jubilee house, gosforth, newcastle upon tyne, england, ne3 4pl",company_address
+"5th floor the peak, 5 wilton road, london, sw1v 1an",company_address
+"hilmore house, gain lane, bradford, west yorkshire, bd3 7dl",company_address
+"27 farm street, farm street, london, england, w1j 5rj",company_address
+bxr54488y768,serial_number
+7u48d7r4vk6cs,serial_number
+8r42228qc7h891f,serial_number
+934r26v231km8,serial_number
+4xl75n74e4ng38nv,serial_number
+x955kl86g/5gx1s4k,serial_number
+3x1x59lu981p,serial_number
+wcys426852146,serial_number
+in8rt/by2s3rj4c,serial_number
+o2i75439u4zj21285,serial_number
+78x64pl4215je,serial_number
+1241qspq37wt9x,serial_number
+7z5hk29e9b5892,serial_number
+34174leh5e1gm5s85,serial_number
+otc93334u36y2/,serial_number
+m15ygc1g4574,serial_number
+q1ik1v57yek67,serial_number
+9373u8deo8b3,serial_number
+56oqfv9g453g69,serial_number
+v23lub9k6ah3554hx,serial_number
+h8a8bvd6381,serial_number
+m2m729u7w8274279,serial_number
+z2om288964797or,serial_number
+n5xos97l7915mk,serial_number
+9r3x/gzynv6rex,serial_number
+y213r29yeg5,serial_number
+f952mp344b,serial_number
+hyewgep279,serial_number
+494322951v8,serial_number
+6v6yew9v29237,serial_number
+y29452u1r4484979d,serial_number
+5461n8nn8q45q53/l,serial_number
+1av52/1wn1nkr96v1,serial_number
+6m526/8257l717m7k,serial_number
+35apo/elo965oevl,serial_number
+t4kh7ru3z1cd954gk,serial_number
+3h2xn1x8l93g81ra,serial_number
+7t896c3z6qs423,serial_number
+a93qo8ja3yj4d,serial_number
+g7/518/u6o3,serial_number
+b3z2p4dr97tqm25,serial_number
+o41eq133jc,serial_number
+698rxs5zo4231715g,serial_number
+a7xhfiz2288f97,serial_number
+54aahuv8p5138,serial_number
+6npj22/8q3,serial_number
+r3nh3zv5gy5bxh,serial_number
+t17h245jfgwkbg,serial_number
+951723724dhr1r,serial_number
+rd/1cvr813s11o4m,serial_number
+2ok96712w6773589,serial_number
+756q14ale7,serial_number
+lbmk56vd6e,serial_number
+124424z6f3y,serial_number
+3w1yx6w25fn9,serial_number
+yfn989r7le/rx278,serial_number
+4q3a/2fkgl259,serial_number
+1l25x7xt7mnw3,serial_number
+z21942u5ru5121l,serial_number
+vlq551u46964j6274,serial_number
+461881b8cp83,serial_number
+2222i39474379675g,serial_number
+3qm343my8437/9m,serial_number
+296654x961s41e51,serial_number
+a5dx333y972k7,serial_number
+zi62fx555kn8,serial_number
+6imydu34f3n6,serial_number
+m4g89xj57hxhkjt7,serial_number
+u3d4s7au1jwf79bj,serial_number
+94727n51g54x6mj1,serial_number
+g3628bt18115,serial_number
+z39s5u7yuc48u7s,serial_number
+3261949a87wtn,serial_number
+68nkis71b1i67,serial_number
+cg6ysbxdusb72,serial_number
+pdx4x19q5wx77b,serial_number
+553f5m3cw1ac,serial_number
+381z9d36w63n68,serial_number
+12u3/5pm2dco2,serial_number
+38r93b2tb3j9jx,serial_number
+8q1b6643lif9183u,serial_number
+v7193w656kg,serial_number
+93v59/q57u,serial_number
+bu8ub368q75,serial_number
+53549i21am23w6o2,serial_number
+2m27469p7ztnp343,serial_number
+556igl/9c23/,serial_number
+21yq4878861o,serial_number
+7584zw3b26de,serial_number
+/73477g8aw34,serial_number
+o1c3z3kj73751776w,serial_number
+9392ss53m8d/x56,serial_number
+1l923i826ri5221,serial_number
+74it9dzl9v48,serial_number
+37r55791r1,serial_number
+t2/hc38ec74w/8757,serial_number
+8l/42165z2fgi4,serial_number
+325j9n89n13333e2,serial_number
+265dsb4k54xi,serial_number
+612ghr44j1f1rot8,serial_number
