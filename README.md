@@ -93,8 +93,15 @@ After the training of AutoML API, I ran it in the console and it was able to pro
 
 
 
-
-
 Trying SpaCy and Entity Recognition and Entity Linker:
 AutoML is good hassel free solution for entity recognition as you dont have to deploy it, but I also finally understood how to perfrom the complete task (NER+NED) using just SpaCy. And using SpaCy for both the components actually provided easy integration. 
 Please refer to the jupyter notebook nerd_full_model.ipynb for detailed explanation of each step and some example code showing how the model can be built for all the labels mentioned in the requirements document.
+
+Update: 
+I earlier assumed that the input sentence will be having some context which we could while doing entity recognition and disambiguation, but now I am looking at how to tackle this problem if the input sentence is only the entity and not the entire sentence. This causes some additional problems. The enitity recognition model cannot be used in this case, as it works best only when the input sentence is a full sentence, that is some context is present. 
+
+Since the input sentence might contain alpha-numeric words building a word level model won't work as the vocab size required would become too huge. Therefore I used a character level model. Another advantage of using a character level model for classificatio is that it will be robust towards spelling mistakes. 
+
+After we classify the input string into one of the 5 categories, I used separate criterias for grouping the entities. For serial numbers I use the starting characters to group them, for physical goods I use embeddings for grouping, for locations embeddings are used for initial candidate generation and then input and candidate entities are further evaluated to identify similairty.
+
+Next I will be looking at how to group the companies' names and their addresses.
