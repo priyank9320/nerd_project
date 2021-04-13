@@ -1,6 +1,9 @@
 # nerd_project
 Named entity recognition and disambiguation project
-(latest code: nerd_full_model.ipynb)
+
+latest code 1: nerd_full_model.ipynb
+latest code 2: entity_classifier_lstm.ipynb
+
 
 I used this readme file to maintain my findings as I went about the task of Entity Linking:
 
@@ -97,11 +100,11 @@ Trying SpaCy and Entity Recognition and Entity Linker:
 AutoML is good hassel free solution for entity recognition as you dont have to deploy it, but I also finally understood how to perfrom the complete task (NER+NED) using just SpaCy. And using SpaCy for both the components actually provided easy integration. 
 Please refer to the jupyter notebook nerd_full_model.ipynb for detailed explanation of each step and some example code showing how the model can be built for all the labels mentioned in the requirements document.
 
-Update: 
+Update: (Refer folder `entity_classifier`)
 I earlier assumed that the input sentence will be having some context which we could while doing entity recognition and disambiguation, but now I am looking at how to tackle this problem if the input sentence is only the entity and not the entire sentence. This causes some additional problems. The enitity recognition model cannot be used in this case, as it works best only when the input sentence is a full sentence, that is some context is present. 
 
-Since the input sentence might contain alpha-numeric words building a word level model won't work as the vocab size required would become too huge. Therefore I used a character level model. Another advantage of using a character level model for classificatio is that it will be robust towards spelling mistakes. 
+Since the input sentence might contain alpha-numeric words, building a word level model won't work as the vocab size required would become too huge. Therefore I used a character level model. Another advantage of using a character level model for classification is that it will be robust towards spelling mistakes. I have created a 1 layer Bi-Lstm model (`entity_classifier_lstm.ipynb`) trained on a manually created sample data file (`datafile_lstm.csv`)
 
-After we classify the input string into one of the 5 categories, I used separate criterias for grouping the entities. For serial numbers I use the starting characters to group them, for physical goods I use embeddings for grouping, for locations embeddings are used for initial candidate generation and then input and candidate entities are further evaluated to identify similairty.
+After we classify the input string into one of the 5 categories, I used separate criterias for grouping the entities. For serial numbers I use the starting characters to group them, for physical goods I use embeddings for grouping, for locations embeddings are used for initial candidate generation and then input and candidate entities are further evaluated to identify similairty (`entity_classifier_lstm.ipynb`).
 
 Next I will be looking at how to group the companies' names and their addresses.
