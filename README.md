@@ -109,3 +109,12 @@ Since the input sentence might contain alpha-numeric words, building a word leve
 After we classify the input string into one of the 5 categories, I used separate criterias for grouping the entities. For serial numbers I use the starting characters to group them, for physical goods I use embeddings for grouping, for locations embeddings are used for initial candidate generation and then input and candidate entities are further evaluated to identify similairty (`entity_classifier_lstm.ipynb`).
 
 Next I will be looking at how to group the companies' names and their addresses.
+
+
+
+update:
+
+I have added the functionality for company name grouping. I am using Wikidata to retrieve aliases for company names and storing it in a local database as need. So when a user enters a company name and it doesn't match any of the names already in our local database, we search it on Wikidata to retrieve any aliases and then store all the names retrieved in our database with a unique group id. For example if the user enters "IBM",  we first check the names in our local database and try to fuzzy match, if it is not found we search in WIkidata which returns the aliases "International Business Machines", "I.B.M", "Big Blue", etc. and thus it covers all the possible aliases for future reference. Next time someone gives a company name referring to IBM company it is very likely that we already have the name in our database and it will match (doing fuzzy match for this as well).
+
+One drawback I am facing right now is that the `pywikibot` library I am using to get the Wikidata is very sensitive to names , need to find a workaround for that.
+
