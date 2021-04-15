@@ -123,3 +123,12 @@ One drawback I am facing right now is that the `pywikibot` library I am using to
 update:
 
 The wikidata library `pywikibot` is very sensitive to mistakes in names and so I am now using Google SERP scraping library to make the code more tolerant to name variations.
+
+
+
+update:
+
+I have added an address parser and fuzzy matching functionality for the parsed address, which is used to identify equivalent addresses and store in the data frame.
+
+So, I have built the entity classifier and covered the grouping functionality for all the 5 categories.
+
