@@ -99,43 +99,43 @@ towels,physical_good
 ironing board,physical_good
 broom,physical_good
 hammer,physical_good
-amcor plc,company_name
-anglo american plc,company_name
-antofagasta plc,company_name
-aon plc,company_name
-ashtead group,company_name
-asos plc,company_name
-associated british foods plc,company_name
-astrazeneca plc,company_name
-aviva plc,company_name
-"avon products, inc.",company_name
-babcock international group plc,company_name
-bae systems plc,company_name
-balfour beatty plc,company_name
-barclays plc,company_name
-barratt developments plc,company_name
-bellway plc,company_name
-berkeley group holdings,company_name
-bhp group plc,company_name
-bp plc,company_name
-british american tobacco,company_name
-vector ai ltd,company_name
-burberry group plc,company_name
-capita plc,company_name
-carnival plc,company_name
-centrica plc,company_name
-cineworld group,company_name
-compass group plc,company_name
-computacenter plc,company_name
-dart group plc,company_name
-diageo plc,company_name
-direct line insurance group plc,company_name
-dixons carphone plc,company_name
-drax group plc,company_name
-marks and spencers ltd,company_name
+facebook,company_name
+google,company_name
+apple,company_name
+tesco,company_name
+walmart,company_name
+asos,company_name
+vector,company_name
+astrazeneca,company_name
+sainsbury's,company_name
+samsung,company_name
+intel,company_name
+dell,company_name
+hp,company_name
+hewlett packard,company_name
+morrisons,company_name
+M&S,company_name
+facebook plc,company_name
+google plc,company_name
+apple plc,company_name
+tesco,company_name
+walmart ltd,company_name
+asos ltd,company_name
+vector,company_name
+astrazeneca,company_name
+sainsbury's,company_name
+samsung,company_name
+intel,company_name
+dell,company_name
+hp,company_name
+hewlett packard,company_name
+morrisons,company_name
+M&S,company_name
+vector,company_name
+marks and spencers,company_name
 nvidia ireland,company_name
 m&s limited,company_name
-firstgroup plc,company_name
+vector.ai,company_name
 frasers group plc,company_name
 g4s plc,company_name
 glaxosmithkline plc,company_name
@@ -144,7 +144,7 @@ hsbc holdings plc,company_name
 imperial brands,company_name
 inchcape plc,company_name
 intercontinental hotels group plc,company_name
-international consolidated airlines group sa,company_name
+international consolidated airlines group plc,company_name
 interserve plc,company_name
 intertek group plc,company_name
 investec plc,company_name
@@ -175,7 +175,7 @@ relx co.,company_name
 rio tinto plc,company_name
 rolls-royce holdings plc,company_name
 royal bank of scotland group plc,company_name
-royal mail plc,company_name
+royal mail,company_name
 rpc group ltd.,company_name
 rsa insurance group plc,company_name
 schroders corporation,company_name

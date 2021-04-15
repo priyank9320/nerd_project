@@ -118,3 +118,8 @@ I have added the functionality for company name grouping. I am using Wikidata to
 
 One drawback I am facing right now is that the `pywikibot` library I am using to get the Wikidata is very sensitive to names , need to find a workaround for that.
 
+
+
+update:
+
+The wikidata library `pywikibot` is very sensitive to mistakes in names and so I am now using Google SERP scraping library to make the code more tolerant to name variations.
